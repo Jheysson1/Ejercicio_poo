@@ -12,11 +12,11 @@ namespace Ejercicio_6
         {
             Rectangulo rec = new Rectangulo(2, 2);
             Circulo cir = new Circulo(3);
-            rec.coordenada = new Ubicacion(2, 4);
+            rec.coordenada = new Ubicacion(2, 3);
             rec.CalPerimetro();
             rec.CalArea();
             Console.WriteLine(rec.ToString());
-            cir.coordenada = new Ubicacion(6, 9);
+            cir.coordenada = new Ubicacion(5, 6);
             cir.CalPerimetro();
             cir.CalArea();
             Console.WriteLine(cir.ToString());
